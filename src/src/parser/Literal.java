@@ -1,5 +1,7 @@
 package parser;
 
+import eval.State;
+
 public class Literal extends Expression {
     int val;
 
@@ -12,6 +14,11 @@ public class Literal extends Expression {
     }
 
     public int getVal() {
+        return val;
+    }
+
+    @Override
+    public int eval(State<Integer> s) {
         return val;
     }
 }

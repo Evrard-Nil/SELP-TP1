@@ -40,7 +40,7 @@ public class Lexer {
 				return new EOF();
 			case '(' :
 				i = in.read();
-				return new LPar();
+				return new LPAR();
 			case ' ' :
 				i = in.read();
 				return getToken();
@@ -50,7 +50,7 @@ public class Lexer {
 					i = in.read();
 					return EQUALS;
 				}
-				return new DefVar();
+				return new DEFVAR();
 			case ')' :
 				i = in.read();
 				return new RPar();

@@ -1,5 +1,9 @@
 package parser;
 
+import eval.State;
+
+import java.io.IOException;
+
 public class ConditionalExpression extends Expression {
 
     Expression exp1;
@@ -14,5 +18,13 @@ public class ConditionalExpression extends Expression {
 
     public String toString(){
         return "ConditionalExpression("+exp1+","+exp2+","+exp3+")";
+    }
+
+    @Override
+    public int eval(State<Integer> s) throws IOException {
+        if(exp1.eval(s)==0){
+            return exp3.eval(s);
+        }
+        return exp2.eval(s);
     }
 }

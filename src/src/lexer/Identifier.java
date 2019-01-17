@@ -10,5 +10,8 @@ public class Identifier implements Token {
     public String toString() {
         return "Identifier :" + this.name;
     }
+    public String getName(){
+        return this.name;
+    }
 }
 

@@ -1,8 +1,8 @@
 package lexer;
 
-public class LPar implements Token {
+public class LPAR implements Token {
     // TODO: 07/01/2019 Complete the class
     public String toString() {
-        return "LPar";
+        return "LPAR";
     }
 }

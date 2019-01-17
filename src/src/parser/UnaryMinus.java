@@ -1,6 +1,9 @@
 package parser;
 
+import eval.State;
 import lexer.Op;
+
+import java.io.IOException;
 
 public class UnaryMinus extends Expression {
 
@@ -12,5 +15,10 @@ public class UnaryMinus extends Expression {
 
     public String toString(){
         return "UnaryMinus(" +exp1+")";
+    }
+
+    @Override
+    public int eval(State<Integer> s) throws IOException {
+        return -exp1.eval(s);
     }
 }

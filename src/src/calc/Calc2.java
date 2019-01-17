@@ -1,10 +1,16 @@
 package calc;
 
+import eval.State;
 import lexer.*;
+import parser.Body;
 import parser.Expression;
+import parser.VarDef;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Calc2 {
     public static void main(String[] args) throws Exception {
@@ -14,14 +20,15 @@ public class Calc2 {
             inputFile = args[0];
             is = new FileInputStream(inputFile);
         }
+        System.out.println(interpret(is));
+    }
 
-        try {
-            SLexer.init(is);
-            Expression exp = Expression.parse(SLexer.getToken());
-            System.out.println(exp);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    public static int interpret(InputStream is) throws IOException, UnexpectedCharacter {
+        SLexer.init(is);
+        State s =new State();
+        Body body =  Body.parse(SLexer.getToken(),new ArrayList<VarDef>());
+        System.out.println(body);
+        return body.eval(s);
     }
 
 }
