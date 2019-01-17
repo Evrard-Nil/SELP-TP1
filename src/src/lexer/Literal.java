@@ -10,4 +10,8 @@ public class Literal implements Token {
     public String toString() {
         return "Literal :" + this.i;
     }
+
+    public int getI() {
+        return i;
+    }
 }

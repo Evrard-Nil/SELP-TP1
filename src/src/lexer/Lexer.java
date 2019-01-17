@@ -7,16 +7,17 @@ import static lexer.Op.*;
 public class Lexer {
 	private InputStream in;
 	private int i; // current ASCII character (coded as an integer)
-	
+	private int numberOfOperations;
+
 	public Lexer(InputStream in) throws IOException {
 		this.in = in;
 		i = in.read(); // initialize current character
 	}
-	
+
 	public List<Token> lex() throws UnexpectedCharacter, IOException {
 		// return the list of tokens recorded in the file
 		List<Token> tokens = new ArrayList<Token>();
-		
+
 		try {
 			Token token = getToken();
 
@@ -26,17 +27,17 @@ public class Lexer {
 			}
 			tokens.add(token); // this is the EOF token
 		} catch (IOException e){
-				in.close(); // close the reader
-				throw e; // pass the exception up the stack
+			in.close(); // close the reader
+			throw e; // pass the exception up the stack
 		}
 		return tokens;
 	}
-	
-	private Token getToken() throws UnexpectedCharacter, IOException {
+
+	public Token getToken() throws UnexpectedCharacter, IOException {
 		switch (i){
-		    case -1 :
-			    in.close();
-			    return new EOF();
+			case -1 :
+				in.close();
+				return new EOF();
 			case '(' :
 				i = in.read();
 				return new LPar();
@@ -107,26 +108,37 @@ public class Lexer {
 								i = in.read();
 								return new Defun();
 							} else
-							return new Identifier(Character.toString((char) preVall));
+								return new Identifier(Character.toString((char) preVall));
 						} else
-						return new Identifier(Character.toString((char) preVall));
+							return new Identifier(Character.toString((char) preVall));
 					}else
-					return new Identifier(Character.toString((char) preVall));
+						return new Identifier(Character.toString((char) preVall));
 				} else
-				return new Identifier(Character.toString((char) preVall));
-		    default :
-		    	if('1' <= i && i <= '9'){
-		    		// Literal
-					int preValll = i;
+					return new Identifier(Character.toString((char) preVall));
+			default :
+				if('1' <= i && i <= '9'){
+					// Literal
+					String literal = Character.toString((char) i);
 					i = in.read();
-		    		return new Literal(Integer.parseInt(Character.toString((char) preValll)));
+
+					while('1' <= i && i <= '9'){
+						literal += (char) i;
+						i = in.read();
+					}
+					return new Literal(Integer.parseInt(literal));
+
 				} else if('a' <= i && i <= 'z'){
-		    		// Identifier or keyword
-					int preVallll = i;
+					// Identifier or keyword
+					String identifier = Character.toString((char) i);
 					i = in.read();
-		    		return new Identifier(Character.toString((char) preVallll));
+
+					while('a' <= i && i <= 'z'||'0' <= i && i <= '9' ){
+						identifier += (char) i;
+						i = in.read();
+					}
+					return new Identifier(identifier);
 				}
-			    throw new UnexpectedCharacter(i);
+				throw new UnexpectedCharacter(i);
 		}
 	}
 }

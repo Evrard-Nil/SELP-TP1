@@ -27,6 +27,7 @@ public class Calc {
 			for (Token token : tokens) {
 				System.out.println(token);
 			}
+			System.out.println(tokens.size());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
