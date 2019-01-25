@@ -29,10 +29,10 @@ public abstract class Expression extends AST{
                 return new ConditionalExpression(exp1, exp2, exp3);
             }else  throw new IOException("Expected RPAR here");
         }else if (token2 instanceof Identifier){
-            return new VAR_ID((Identifier) token2);
+            Token
 
         }
-        return new Literal(0);
+        throw new IOException("Unexpected token in expression");
     }
 
     public static Expression parseSimpleExpression(Token token) throws IOException, UnexpectedCharacter {

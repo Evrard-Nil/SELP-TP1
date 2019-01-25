@@ -85,36 +85,47 @@ public class Lexer {
 				i = in.read();
 				return getToken();
 			case 'i' :
-				int preVal = i;
+				String preVal = Character.toString((char) i);
 				i = in.read();
 				if(i == 'f'){
+					preVal+= (char) i;
 					i = in.read();
-					return new If();
+					if(i == ' '){
+						i= in.read();
+						return new If();
+					}
+					return getId(preVal+ (char) i);
 				}
-				return new Identifier(Character.toString((char) preVal));
+				return getId(preVal);
 			case 'd' :
-				int preVall = i;
+				String preVall = Character.toString((char) i);
 				i = in.read();
 				if(i == 'e'){
-					preVall = i;
+					preVall += (char) i;
 					i = in.read();
 					if(i == 'f'){
-						preVall = i;
+						preVall += (char)  i;
 						i = in.read();
 						if(i == 'u'){
-							preVall = i;
+							preVall +=  (char) i;
 							i = in.read();
 							if(i == 'n'){
+								preVall +=  (char) i;
 								i = in.read();
-								return new Defun();
+								if (i == ' '){
+									i = in.read();
+									return new Defun();
+								}else {
+									return getId(preVall+  (char) i);
+								}
 							} else
-								return new Identifier(Character.toString((char) preVall));
+								return getId(preVall);
 						} else
-							return new Identifier(Character.toString((char) preVall));
+							return getId(preVall);
 					}else
-						return new Identifier(Character.toString((char) preVall));
+						return getId(preVall);
 				} else
-					return new Identifier(Character.toString((char) preVall));
+					return getId(preVall);
 			default :
 				if('1' <= i && i <= '9'){
 					// Literal
@@ -129,16 +140,19 @@ public class Lexer {
 
 				} else if('a' <= i && i <= 'z'){
 					// Identifier or keyword
-					String identifier = Character.toString((char) i);
-					i = in.read();
-
-					while('a' <= i && i <= 'z'||'0' <= i && i <= '9' ){
-						identifier += (char) i;
-						i = in.read();
-					}
-					return new Identifier(identifier);
+					return  getId(Character.toString((char) i));
 				}
 				throw new UnexpectedCharacter(i);
 		}
+	}
+
+	private Identifier getId(String preVal) throws IOException {
+		i = in.read();
+
+		while('a' <= i && i <= 'z'||'0' <= i && i <= '9' ){
+			preVal += (char) i;
+			i = in.read();
+		}
+		return new Identifier( preVal);
 	}
 }

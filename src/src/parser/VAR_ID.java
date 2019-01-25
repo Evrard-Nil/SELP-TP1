@@ -17,10 +17,12 @@ public class VAR_ID extends Expression {
 
     @Override
     public String toString() {
-        return "VAR_ID("+this.id.getName()+")";
+        return "Variable("+this.id.getName()+")";
     }
 
     public int eval(State<Integer> s) throws IOException {
+
+        if (!s.containsKey((this.id.getName()))) throw new IOException("Variable not in state");
         return s.lookup(this.id.getName());
     }
 }

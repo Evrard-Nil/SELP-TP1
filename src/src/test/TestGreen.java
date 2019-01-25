@@ -4,7 +4,7 @@ public class TestGreen extends Test {
 	
 	public static void main(String[] args){
 		Test.main(args);
-		// Calc Green	
+		// CalcOld Green
 		verbose = true;
 		test(verbose, "test/greenZeroUnix.calc", "0", "0");
 		test(verbose, "test/greenZeroDos.calc", "0", "0");

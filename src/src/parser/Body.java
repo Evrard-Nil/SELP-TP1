@@ -17,14 +17,14 @@ public class Body extends AST {
 
     @Override
     public String toString() {
-        return "Body("+this.defs.toString()+" = "+ exp.toString()+")";
+        return exp.toString();
     }
     public static Body parse(Token token, List<VarDef> defs) throws IOException, UnexpectedCharacter {
         if (token instanceof LPAR) {
             Token token2 = SLexer.getToken();
             if (token2 instanceof DEFVAR) { // this is a definition
                 // parse tail of definition
-                VarDef def = (VarDef) VarDef.parse(SLexer.getToken());
+                VarDef def =  VarDef.parse(SLexer.getToken());
                 // accumulate definition
                 defs.add(def);
                 // loop on the rest of the body with the accumulated definitions

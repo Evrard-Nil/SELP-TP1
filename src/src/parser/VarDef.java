@@ -16,7 +16,7 @@ public class VarDef extends AST {
         this.exp = exp;
     }
 
-    public static Object parse(Token token) throws IOException, UnexpectedCharacter {
+    public static VarDef parse(Token token) throws IOException, UnexpectedCharacter {
         if(token instanceof Identifier){
             Expression exp = Expression.parseSimpleExpression(SLexer.getToken());
             if(SLexer.getToken() instanceof RPar){
