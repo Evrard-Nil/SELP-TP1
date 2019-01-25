@@ -9,11 +9,9 @@ OS: Windows 10
 
 - Piste verte: Finie
 - Piste bleue: Finie
-En cours: amélioration de la gestion des erreurs.
+- Erreurs: toutes géres sauf erreur "01"
+- Piste rouge: avancée, il manque le parsing d'appel de fonction dans la classe Expression, et l'évaluation des nouvelles classes.
 
-## Gestion des erreurs
-
-En cours d'avancement
 
 ## Libertés
 
