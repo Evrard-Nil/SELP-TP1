@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df222fac-45ef-4e7d-8fec-2cb533e4708e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/calc/CalcOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/parser/FUNC_ID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/parser/FuncDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/parser/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/parser/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/calc/Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/calc/Calc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/calc/Calc2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/eval/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/eval/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/lexer/Lexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/lexer/Lexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/parser/Body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/parser/Body.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP1/parser/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/parser/Expression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/parser/VAR_ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/parser/VAR_ID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/calc/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/calc/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/calc/Calc2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/eval/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/eval/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/lexer/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/lexer/Lexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/parser/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/parser/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1/parser/FUNC_ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/parser/FUNC_ID.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/parser/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/parser/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/parser/VAR_ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/parser/VAR_ID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/parser/VarDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/parser/VarDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/test/TestGreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/test/TestGreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/parser/FUNC_ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/parser/FUNC_ID.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/calc/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="29" column="74" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="74" />
+            <state relative-caret-position="444">
+              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,22 +32,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
+            <state relative-caret-position="238">
               <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/test/TestRed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="221">
               <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
             </state>
           </provider>
@@ -86,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/VarDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="442">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,12 +77,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/FuncDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="408">
               <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,12 +91,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/FUNC_ID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="235">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/VAR_ID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="272">
               <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -152,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/parser/Head.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="357">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -206,14 +185,14 @@
         <option value="$PROJECT_DIR$/src/src/parser/Head.java" />
         <option value="$PROJECT_DIR$/src/src/parser/FuncDef.java" />
         <option value="$PROJECT_DIR$/src/src/parser/Program.java" />
-        <option value="$PROJECT_DIR$/src/src/parser/FUNC_ID.java" />
         <option value="$PROJECT_DIR$/src/src/parser/Expression.java" />
+        <option value="$PROJECT_DIR$/src/src/parser/FUNC_ID.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -235,17 +214,6 @@
               <item name="TP1" type="58d84e3e:PackageViewProjectNode" />
               <item name="TP1" type="616d4139:PackageViewModuleNode" />
               <item name="calc" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="SELP-TP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TP1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -297,6 +265,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="SELP-TP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TP1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestGreen">
+  <component name="RunManager" selected="Application.TestErrors">
     <configuration name="Calc : test-lexer0" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="calc.CalcOld" />
       <module name="TP1" />
@@ -443,9 +422,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestGreen" />
-        <item itemvalue="Application.TestBlue" />
         <item itemvalue="Application.TestErrors" />
+        <item itemvalue="Application.TestBlue" />
+        <item itemvalue="Application.TestGreen" />
       </list>
     </recent_temporary>
   </component>
@@ -473,17 +452,17 @@
       <workItem from="1548339665672" duration="1023000" />
       <workItem from="1548340699780" duration="268000" />
       <workItem from="1548340992018" duration="10239000" />
+      <workItem from="1548447429864" duration="184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46984000" />
+    <option name="totallyTimeSpent" value="47168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -492,7 +471,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29189944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34497207" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -795,12 +774,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/calc/Calc.java">
+    <entry file="file://$PROJECT_DIR$/src/src/parser/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="74" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="74" />
+        <state relative-caret-position="238">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/test/TestRed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/parser/VarDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/parser/FuncDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/parser/VAR_ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/parser/Head.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/parser/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/parser/FUNC_ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,85 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/VAR_ID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/VarDef.java">
+    <entry file="file://$PROJECT_DIR$/src/src/calc/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/FuncDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/Head.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/test/TestRed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/FUNC_ID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/parser/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

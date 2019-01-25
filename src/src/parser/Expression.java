@@ -28,9 +28,8 @@ public abstract class Expression extends AST{
             if(SLexer.getToken() instanceof lexer.RPar){
                 return new ConditionalExpression(exp1, exp2, exp3);
             }else  throw new IOException("Expected RPAR here");
-        }else if (token2 instanceof Identifier){
-            Token
-
+        }else if (token2 instanceof Identifier && false){
+            // parse function call
         }
         throw new IOException("Unexpected token in expression");
     }
